@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,9 +6,20 @@
     <title>Avramidis Visuals</title>
 
     <link rel="stylesheet" href="./dist/output.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-</head>
-<body>
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/peg1irw.css"> -->
 
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="./app.js"></script>
+</head>
+<body class="font-unineueRegular">
+    <div id="header"></div>
+    <div id="hero"></div>
+</body>
+<script>
+    fetchComponents([
+        { name: "header",   elementId: "header" },
+        { name: "hero",     elementId: "hero"   },
+    ]);
+</script>
 </body>
 </html>

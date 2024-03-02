@@ -1,25 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avramidis Visuals</title>
 
     <link rel="stylesheet" href="./dist/output.css">
     <!-- <link rel="stylesheet" href="https://use.typekit.net/peg1irw.css"> -->
-
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="./app.js"></script>
 </head>
-<body class="font-unineueRegular">
+<body class="font-unineueRegular" x-data="fetchData()" x-init="loadData">
     <div id="header"></div>
     <div id="hero"></div>
+    <div id="services"></div>
+    <div id="why-us"></div>
+    <div id="projects"></div>
+    <div id="faq"></div>
+    <div id="contact"></div>
+    <div id="footer"></div>
 </body>
 <script>
     fetchComponents([
-        { name: "header",   elementId: "header" },
-        { name: "hero",     elementId: "hero"   },
+        { name: "header",   elementId: "header"     },
+        { name: "hero",     elementId: "hero"       },
+        { name: "services", elementId: "services"   },
+        { name: "why-us",   elementId: "why-us"     },
+        { name: "projects", elementId: "projects"   },
+        { name: "faq",      elementId: "faq"        },
+        { name: "contact",  elementId: "contact"    },
+        { name: "footer",   elementId: "footer"     },
     ]);
+    
 </script>
 </body>
 </html>

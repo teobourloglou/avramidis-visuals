@@ -1,0 +1,23 @@
+<div id="projects" class="bg-gray-4">
+    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-36 lg:max-w-7xl lg:px-8">
+      <div class="flex items-center justify-between space-x-4">
+        <h2 class="text-3xl sm:text-5xl font-proxima text-gray-1">Επιλεγμένα projects</h2>
+      </div>
+      <div class="mt-12 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10">
+        <template x-for="project in data.projects">
+            <div class="group relative" x-data="{ clicked : false }">
+              <div class="aspect-h-2 aspect-w-4 overflow-hidden relative bg-gray-3" @click="clicked = !clicked">
+                <img src="media/placeholder.png" alt="" class="object-cover object-center w-full h-full">
+                <div class="flex items-center absolute top-0 h-full w-full justify-center p-4 opacity-0  group-hover:bg-primary group-hover:opacity-100 transition-all duration-300" aria-hidden="true">
+                  <img :class="{ 'scale-125' : clicked }" class="zoom-svg transition-transform duration-300" src="media/zoom.svg">
+                </div>
+              </div>
+              <div class="mt-4 flex items-center justify-between space-x-8 text-xl sm:text-2xl font-unineueBold text-gray-1">
+                  <a href="#" x-text="project.project"></a>
+              </div>
+            </div>
+        </template>
+        </div>
+    </div>
+  </div>
+  

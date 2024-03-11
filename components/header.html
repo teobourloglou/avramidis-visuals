@@ -1,53 +1,53 @@
 <header x-data="{ open : false }" class="fixed inset-x-0 top-0 z-50">
-    <nav id="headerDesktop" class="flex items-center justify-between py-4 px-6 mt-4 lg:py-6 lg:px-8 lg:max-w-7xl lg:mx-auto transition-colors duration-300" aria-label="Global">
+    <nav id="headerDesktop" class="flex items-center justify-between px-6 py-4 transition-colors duration-300 lg:py-6 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
         <a href="/" class="-m-1.5 p-1.5">
           <span class="sr-only">Avramidis Visuals</span>
-          <img id="headerDesktopLogo" class="h-10 w-auto" src="media/white-logo.svg" alt="">
+          <img id="headerDesktopLogo" class="w-auto h-10" src="media/white-logo.svg" alt="">
         </a>
       </div>
       <div class="flex lg:hidden">
         <button id="openMenuButton" @click="open = true" type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-4">
           <span class="sr-only">Open main menu</span>
-          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
-        <a href="/" class="desktopLinks text-lg leading-6 text-gray-4 transition-colors duration-300">Αρχική</a>
-        <a href="#services" class="desktopLinks text-lg leading-6 text-gray-4 transition-colors duration-300">Υπηρεσίες</a>
-        <a href="#projects" class="desktopLinks text-lg leading-6 text-gray-4 transition-colors duration-300">Ενδεικτικά Projects</a>
-        <a href="#faq" class="desktopLinks text-lg leading-6 text-gray-4 transition-colors duration-300">Συχνές Ερωτήσεις</a>
+        <a href="/" class="text-lg leading-6 transition-colors duration-300 desktopLinks text-gray-4">Αρχική</a>
+        <a href="#services" class="text-lg leading-6 transition-colors duration-300 desktopLinks text-gray-4">Υπηρεσίες</a>
+        <a href="#projects" class="text-lg leading-6 transition-colors duration-300 desktopLinks text-gray-4">Ενδεικτικά Projects</a>
+        <a href="#faq" class="text-lg leading-6 transition-colors duration-300 desktopLinks text-gray-4">Συχνές Ερωτήσεις</a>
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a id="contactButton" href="#contact" class="rounded-xl bg-gray-4 px-5 py-1.5 text-lg text-gray-1 transition-colors duration-300 hover:bg-primary hover:text-gray-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">Επικοινωνία</a>
+        <a id="contactButton" href="#contact" class="rounded-xl bg-gray-4 px-5 py-1.5 font-unineueBold text-lg text-gray-1 transition-colors duration-300 hover:bg-primary hover:text-gray-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">Επικοινωνία</a>
       </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
     <div class="lg:hidden" role="dialog" aria-modal="true">
       <!-- Background backdrop, show/hide based on slide-over state. -->
       <div x-show="open" class="fixed inset-0 z-50"></div>
-      <div x-show="open" class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+      <div x-show="open" class="fixed inset-y-0 right-0 z-50 w-full px-6 py-6 overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
         <div class="flex items-center justify-between">
           <a href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Avramidis visuals</span>
-            <img class="h-8 w-auto" src="media/white-logo.svg" alt="">
+            <img class="w-auto h-8" src="media/white-logo.svg" alt="">
           </a>
           <button @click="open = false" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
             <span class="sr-only">Close menu</span>
-            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>
         </div>
-        <div class="mt-6 flow-root">
+        <div class="flow-root mt-6">
           <div class="-my-6 divide-y divide-gray-500/10">
-            <div class="space-y-2 py-6">
-              <a href="/" class="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50">Αρχική</a>
-              <a href="#services" @click="open = false" class="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50">Υπηρεσίες</a>
-              <a href="#projects" @click="open = false" class="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50">Ενδεικτικά Projects</a>
-              <a href="#faq" @click="open = false" class="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50">Συχνές Ερωτήσεις</a>
+            <div class="py-6 space-y-2">
+              <a href="/" class="block px-3 py-2 -mx-3 text-base leading-7 text-gray-900 rounded-lg hover:bg-gray-50">Αρχική</a>
+              <a href="#services" @click="open = false" class="block px-3 py-2 -mx-3 text-base leading-7 text-gray-900 rounded-lg hover:bg-gray-50">Υπηρεσίες</a>
+              <a href="#projects" @click="open = false" class="block px-3 py-2 -mx-3 text-base leading-7 text-gray-900 rounded-lg hover:bg-gray-50">Ενδεικτικά Projects</a>
+              <a href="#faq" @click="open = false" class="block px-3 py-2 -mx-3 text-base leading-7 text-gray-900 rounded-lg hover:bg-gray-50">Συχνές Ερωτήσεις</a>
             </div>
             <div class="py-6">
               <a href="#contact" @click="open = false" class="-mx-3 block rounded-lg px-3 py-2.5 text-base leading-7 text-gray-900 hover:bg-gray-50">Επικοινωνία</a>

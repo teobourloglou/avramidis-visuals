@@ -44,28 +44,13 @@ const fetchComponents = (components) => {
           if (element) {
             element.innerHTML = data;
           }
-          loadBoxShadows();
         });
     });
   };
 
-/**
- * Create and associate box shadows in elements.
- *
- * @returns {void}
- */
-const loadBoxShadows = () => {
-    let shadow = '';
-    for (let i = 0; i < 400; i++) {
-        shadow += (shadow? ',':'')+ -i*2+'px ' + i*1+'px 0 #d3d3d3';
-    }
-    document.querySelectorAll(".service-item").forEach(item => {
-        item.style.boxShadow = shadow;
-    });
-}
 
 /**
- * Fetches all the products from the JSON file.
+ * Fetches all the data from the JSON file.
  *
  * @returns {void}
  */

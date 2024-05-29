@@ -5,26 +5,26 @@
 
 
 @layer base {
-    
+
     @import url("https://p.typekit.net/p.css?s=1&k=peg1irw&ht=tk&f=169&a=136462817&app=typekit&e=css");
-    
+
     @font-face {
-        font-family:"proxima-nova";
+        font-family: "proxima-nova";
         src: url("https://use.typekit.net/af/8738d8/00000000000000007735e611/30/l?primer=049545bd55229089902db134b9acf7bdfc76d00e70020bfe942d7de610de91c2&fvd=n8&v=3") format("woff2"),
-             url("https://use.typekit.net/af/8738d8/00000000000000007735e611/30/d?primer=049545bd55229089902db134b9acf7bdfc76d00e70020bfe942d7de610de91c2&fvd=n8&v=3") format("woff"),
-             url("https://use.typekit.net/af/8738d8/00000000000000007735e611/30/a?primer=049545bd55229089902db134b9acf7bdfc76d00e70020bfe942d7de610de91c2&fvd=n8&v=3") format("opentype");
+            url("https://use.typekit.net/af/8738d8/00000000000000007735e611/30/d?primer=049545bd55229089902db134b9acf7bdfc76d00e70020bfe942d7de610de91c2&fvd=n8&v=3") format("woff"),
+            url("https://use.typekit.net/af/8738d8/00000000000000007735e611/30/a?primer=049545bd55229089902db134b9acf7bdfc76d00e70020bfe942d7de610de91c2&fvd=n8&v=3") format("opentype");
         font-display: auto;
         font-style: normal;
         font-weight: 800;
         font-stretch: normal;
     }
-    
+
     @font-face {
         font-family: 'Unineue Bold';
         src: url('../fonts/UniNeue-Bold.ttf') format('truetype'),
-             url('../fonts/UniNeue-Bold.otf') format('opentype'),
-             url('../fonts/UniNeue-Bold.woff') format('woff'),
-             url('../fonts/UniNeue-Bold.woff2') format('woff');
+            url('../fonts/UniNeue-Bold.otf') format('opentype'),
+            url('../fonts/UniNeue-Bold.woff') format('woff'),
+            url('../fonts/UniNeue-Bold.woff2') format('woff');
         font-weight: 800;
         font-style: normal;
     }
@@ -32,14 +32,15 @@
     @font-face {
         font-family: 'Unineue Regular';
         src: url('../fonts/UniNeue-Regular.ttf') format('truetype'),
-             url('../fonts/UniNeue-Regular.otf') format('opentype'),
-             url('../fonts/UniNeue-Regular.woff') format('woff'),
-             url('../fonts/UniNeue-Regular.woff2') format('woff');
+            url('../fonts/UniNeue-Regular.otf') format('opentype'),
+            url('../fonts/UniNeue-Regular.woff') format('woff'),
+            url('../fonts/UniNeue-Regular.woff2') format('woff');
         font-weight: 400;
         font-style: normal;
     }
 }
 
-html, body {
+html,
+body {
     scroll-behavior: smooth;
 }

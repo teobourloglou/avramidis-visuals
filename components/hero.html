@@ -1,11 +1,20 @@
-<div class="relative isolate px-6 pt-14 overflow-hidden lg:px-8 bg-gradient-to-l from-gray-1 from-70% to-gray-2 max-h-screen min-h-screen">
-    <div class="py-32 mx-auto max-w-7xl sm:py-48 lg:py-56">
+<div class="relative isolate px-6 pt-14 overflow-hidden lg:px-8 bg-gradient-to-l from-gray-1 from-70% to-gray-2 lg:max-h-screen lg:min-h-screen">
+    <div class="relative z-20 py-24 mx-auto max-w-7xl sm:py-36">
         <div class="text-center">
-            <h1 class="text-4xl sm:text-6xl font-proxima text-gray-4 lg:text-7xl xl:text-9xl">Το brand σας,<br>η <span class="text-primary">υπογραφή</span> μας!</h1>
-            <p class="mt-6 text-xl leading-8 lg:text-2xl text-gray-4">Η Avramidis visuals αναλαμβάνει την οπτική εικόνα της εταιρείας σας<br>προσφέροντας γραφιστικές και φωτογραφικές υπηρεσίες</p>
+            <h1 class="text-4xl lg:text-[110px] lg:leading-[6rem] font-proxima text-gray-4">Το brand σας,<br>η <span class="text-primary">υπογραφή</span> μας!</h1>
+            <p class="mt-6 text-base leading-6 lg:leading-8 lg:text-[22.5px] text-gray-4">Η Avramidis visuals αναλαμβάνει την οπτική<span class="lg:hidden"><br></span> εικόνα της εταιρείας σας <span class="hidden lg:inline"><br></span> προσφέροντας<span class="lg:hidden"><br></span> γραφιστικές και φωτογραφικές υπηρεσίες</p>
             <div class="flex flex-col items-center justify-center mt-10 gap-y-24">
-                <a href="#contact" class="rounded-xl font-unineueBold bg-primary px-5 py-1.5 text-xl text-white hover:bg-gray-4 hover:text-gray-1 transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Μιλήστε μαζί μας</a>
-                <a href="#services"><img src="media/arrow.svg" alt="down-arrow" class="animate-bounce"></a>
+                <a href="#contact" class="inline-block w-48 lg:w-64 px-8 py-2.5 text-sm lg:text-xl text-center text-white transition-all duration-500 cursor-pointer group rounded-xl bg-primary">
+                    <span class="relative inline-block transition-all duration-500 cursor-pointer after:content-['\00bb'] after:right-[-10px] after:transition-all after:duration-500 after:absolute after:opacity-0 after:top-0 group-hover:pr-3 group-hover:after:opacity-100 group-hover:right-0">
+                        Μιλήστε μαζί μας
+                    </span>
+                </a>
+                <div class="flex flex-col items-center gap-y-3">
+                    <a href="#services" class="animate-bounce w-[22px] h-[36px] border-gray-4 border flex items-center justify-center rounded-full p-1">
+                        <img src="media/arrow.svg" alt="down-arrow">
+                    </a>
+                    <a href="#services" class="text-xs lg:text-base whitespace-nowrap text-gray-4">Δείτε περισσότερα</a>
+                </div>
             </div>
         </div>
     </div>

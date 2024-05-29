@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avramidis Visuals</title>
+
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/peg1irw.css"> -->
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="./app.js"></script>
+</head>
+<body class="font-unineueRegular" x-data="fetchData()" x-init="loadData">
+    <div id="header-secondary"></div>
+    <div id="graphic-design-breadcrumbs"></div>
+    <div id="graphic-design-services"></div>
+    <div id="contact"></div>
+    <div id="footer"></div>
+</body>
+<script>
+    fetchComponents([
+        { name: "header-secondary",             elementId: "header-secondary"           },
+        { name: "graphic-design-breadcrumbs",   elementId: "graphic-design-breadcrumbs" },
+        { name: "graphic-design-services",      elementId: "graphic-design-services"    },
+        { name: "contact",                      elementId: "contact"                    },
+        { name: "footer",                       elementId: "footer"                     },
+    ]);
+</script>
+</body>
+</html>

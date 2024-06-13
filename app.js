@@ -75,3 +75,52 @@ const fetchData = () => {
         }
     };
   }
+
+
+/**
+ * Extracts the value of the 'project' URL parameter from the current window's URL.
+ *
+ * @returns {string} The value of the 'project' URL parameter if found.
+ */
+const getProjectFromURL = () => {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    return urlParams.get('project');
+}
+
+/**
+ * Fetches the project from the JSON file, according to the URL parameter.
+ *
+ * @returns {void}
+ */
+const fetchProject = () => {
+    return {
+        projectFound: null,
+        urlId: null,
+        projects: {},
+        project: {},
+        loadData() {
+            fetch('data.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(json => {
+                    this.urlId = getProjectFromURL();
+                    this.projects = json.projects;
+                    this.project = this.projects.find(project => project.id === this.urlId);
+                    if (this.project) {
+                      this.projectFound = true;
+                    } else {
+                      this.projectFound = false;
+                    }
+                })
+                .catch(error => {
+                    console.error('There has been a problem with your fetch operation:', error);
+                    this.loading = false;
+                });
+        }
+    };
+  }

@@ -16,18 +16,22 @@
 </head>
 <body class="font-unineueRegular" x-data="fetchData()" x-init="loadData">
     <div id="header-secondary"></div>
-    <div id="graphic-design-breadcrumbs"></div>
-    <div id="graphic-design-services"></div>
-    <div id="contact"></div>
-    <div id="footer"></div>
+    <div class="pt-20">
+        <div id="g-breadcrumbs"></div>
+        <div id="g-services"></div>
+        <div id="g-branding"></div>
+        <div id="contact"></div>
+        <div id="footer"></div>
+    </div>
 </body>
 <script>
     fetchComponents([
-        { name: "header-secondary",             elementId: "header-secondary"           },
-        { name: "graphic-design-breadcrumbs",   elementId: "graphic-design-breadcrumbs" },
-        { name: "graphic-design-services",      elementId: "graphic-design-services"    },
-        { name: "contact",                      elementId: "contact"                    },
-        { name: "footer",                       elementId: "footer"                     },
+        { name: "header-secondary", elementId: "header-secondary"   },
+        { name: "g-breadcrumbs",    elementId: "g-breadcrumbs"      },
+        { name: "g-services",       elementId: "g-services"         },
+        { name: "g-branding",       elementId: "g-branding"         },
+        { name: "contact",          elementId: "contact"            },
+        { name: "footer",           elementId: "footer"             },
     ]);
 </script>
 </body>

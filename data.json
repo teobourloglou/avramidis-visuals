@@ -7,7 +7,8 @@
             "description2" : "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? ",
             "client"        : "RecMe productions",
             "service"       : "Σχεδιασμός επεκτημένης εταιρικής ταυτότητας",
-            "year"          : "2024"
+            "year"          : "2024",
+            "link"          : "/portfolio.html?project=1"
         },
         {
             "title"         : "Σχεδιασμός επαγγελματικής κάρτας για την Νέο σπίτι - Έπιπλα Τσακιρίδης",
@@ -16,7 +17,8 @@
             "description2" : "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? ",
             "client"        : "RecMe productions",
             "service"       : "Σχεδιασμός επεκτημένης εταιρικής ταυτότητας",
-            "year"          : "2024"
+            "year"          : "2024",
+            "link"          : "/portfolio.html?project=2"
         },
         {
             "title"         : "Σχεδίαση συσκευασίας για τροφή παπαγάλων (passion project)",
@@ -25,7 +27,8 @@
             "description2" : "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? ",
             "client"        : "RecMe productions",
             "service"       : "Σχεδιασμός επεκτημένης εταιρικής ταυτότητας",
-            "year"          : "2024"
+            "year"          : "2024",
+            "link"          : "/portfolio.html?project=3"
         },
         {
             "title"         : "Σχεδίαση εξωφύλλου του βιβλίου «Οι εν γλώσσαις οδός προς το Άβατον του Θεού»",
@@ -34,7 +37,8 @@
             "description2" : "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? ",
             "client"        : "RecMe productions",
             "service"       : "Σχεδιασμός επεκτημένης εταιρικής ταυτότητας",
-            "year"          : "2024"
+            "year"          : "2024",
+            "link"          : "/portfolio.html?project=4"
         }
     ],
     "questions" : [

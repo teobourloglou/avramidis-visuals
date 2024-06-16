@@ -1,5 +1,5 @@
 <div id="projects" class="overflow-hidden bg-gray-3">
-    <div class="max-w-2xl px-4 py-16 mx-auto sm:px-6 sm:pt-36 lg:max-w-7xl lg:px-8">
+    <div class="max-w-2xl px-4 py-16 mx-auto sm:max-w-4xl sm:px-6 sm:pt-36 lg:max-w-7xl lg:px-8">
       <div class="flex items-center justify-between space-x-4">
         <h2 class="text-2xl lg:text-[44px] font-proxima text-gray-1">Συχνές ερωτήσεις</h2>
       </div>
@@ -16,12 +16,19 @@
             </div>
         </template>
       </div>
-      <span class="hidden scale-125 translate-x-6 -translate-y-3 rotate-6 sm:after:right-0"></span>
-      <span class="-top-36 -translate-x-24 hidden left-4 right-[30%] sm:after:right-10 "></span>
+      <span class="hidden scale-125 translate-x-6 -translate-y-3 top-8 rotate-6 sm:after:right-0"></span>
+      <span class="lg:-top-36 -translate-x-24 hidden lg:left-4 -left-32 -top-36 right-[30%] sm:after:right-10 "></span>
       <div class="relative flex items-center justify-end py-8 mt-12">
-        <img src="media/question-marks.svg" class="absolute -left-8 top-12 duration-[1500ms]" x-intersect="$el.classList.add('-top-36','left-4'); $el.classList.remove('top-12','-left-8');" alt="Question Marks">
-        <h4 class="text-4xl relative font-unineueBold text-gray-1 right-1/2 translate-y-24 -rotate-12 duration-[1500ms]" x-intersect="$el.classList.add('right-[30%]'); $el.classList.remove('right-1/2', 'translate-y-24', '-rotate-12');">Έχετε κάποια<br>άλλη ερώτηση;</h4>
-        <img src="media/question-arrow.svg" class="absolute right-[15%] duration-[1500ms]" x-intersect="$el.classList.add('translate-x-6', '-translate-y-3', 'rotate-6');" alt="Arrow">
+        <img src="media/question-marks.svg" class="absolute scale-50 -left-16 -top-12 lg:-left-8 lg:top-12 duration-[1500ms]"
+          x-intersect="$el.classList.add('lg:-top-36','lg:left-4', '-top-36', '-left-32'); $el.classList.remove('-top-12','-left-16','lg:top-12','lg:-left-8');"
+          alt="Question Marks"
+        >
+        <h4 class="text-lg lg:text-4xl relative font-unineueBold text-gray-1 right-1/2 translate-y-24 -rotate-12 duration-[1500ms]"
+        x-intersect="$el.classList.add('right-[30%]', 'top-8'); $el.classList.remove('right-1/2', 'translate-y-24', '-rotate-12');"
+        >Έχετε κάποια<br>άλλη ερώτηση;</h4>
+        <img src="media/question-arrow.svg" class="absolute right-0 sm:right-[15%] lg:scale-100 top-0 scale-50 duration-[1500ms]"
+          x-intersect="$el.classList.add('translate-x-6', '-translate-y-3', 'rotate-6');"
+         alt="Arrow">
       </div>
     </div>
   </div>

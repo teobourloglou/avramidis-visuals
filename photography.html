@@ -14,30 +14,26 @@
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="./app.js"></script>
 </head>
-<body class="font-unineueRegular" x-data="fetchProject()" x-init="loadData">
+<body class="font-unineueRegular" x-data="fetchData()" x-init="loadData">
     <div id="header-secondary"></div>
-    <div class="px-4 lg:px-8 sm:px-6 bg-gray-4">
-        <div class="grid max-w-2xl grid-cols-1 gap-12 py-16 mx-auto lg:grid-cols-8 sm:max-w-4xl lg:max-w-7xl">
-            <div id="p-images" class="order-2 col-span-1 lg:col-span-5 lg:order-1"></div>
-            <div id="p-info" class="order-1 col-span-1 lg:col-span-3 lg:order-2"></div>
-            <div id="p-not-found" class="col-span-1 lg:col-span-8"></div>
-        </div>
-        <div class="flex justify-center py-12">
-            <a href="" class="flex rounded-xl bg-gray-3">
-                <img src="" alt="">
-                <span class="flex-1 py-3 px-8 font-unineueBold text-lg lg:text-[22.5px]">Επιστροφή στην αρχική</span>
-            </a>
-        </div>
+    <div class="pt-16">
+        <div id="p-breadcrumbs"></div>
+        <div id="p-services"></div>
+        <div id="p-products"></div>
+        <div id="p-events"></div>
+        <div id="p-restoration"></div>
+        <div id="contact"></div>
+        <div id="footer"></div>
     </div>
-    <div id="contact"></div>
-    <div id="footer"></div>
 </body>
 <script>
     fetchComponents([
         { name: "header-secondary", elementId: "header-secondary"   },
-        { name: "p-images",         elementId: "p-images"           },
-        { name: "p-info",           elementId: "p-info"             },
-        { name: "p-not-found",      elementId: "p-not-found"        },
+        { name: "p-breadcrumbs",    elementId: "p-breadcrumbs"      },
+        { name: "p-services",       elementId: "p-services"         },
+        { name: "p-products",       elementId: "p-products"         },
+        { name: "p-events",         elementId: "p-events"           },
+        { name: "p-restoration",    elementId: "p-restoration"      },
         { name: "contact",          elementId: "contact"            },
         { name: "footer",           elementId: "footer"             },
     ]);

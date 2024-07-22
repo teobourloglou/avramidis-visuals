@@ -4,7 +4,7 @@ window.addEventListener('scroll', function() {
     let desktopLinks = document.querySelectorAll('.desktopLinks');
 
     if (scrollPosition >= triggerPosition) {
-        document.getElementById('headerDesktop').classList.add('bg-gray-4');
+        document.getElementById('headerDesktop').classList.add('bg-gray-4', 'shadow-lg');
         document.getElementById('contactButton').classList.add('bg-gray-1', 'text-gray-4');
         document.getElementById('contactButton').classList.remove('bg-gray-4', 'text-gray-1');
         document.getElementById('headerDesktopLogo').src = 'media/black-logo.svg';
@@ -15,7 +15,7 @@ window.addEventListener('scroll', function() {
             element.classList.remove('text-gray-4');
         });
     } else {
-        document.getElementById('headerDesktop').classList.remove('bg-gray-4');
+        document.getElementById('headerDesktop').classList.remove('bg-gray-4', 'shadow-lg');
         document.getElementById('contactButton').classList.remove('bg-gray-1', 'text-gray-4');
         document.getElementById('contactButton').classList.add('bg-gray-4', 'text-gray-1');
         document.getElementById('headerDesktopLogo').src = 'media/white-logo.svg';

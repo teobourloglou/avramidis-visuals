@@ -1,68 +1,134 @@
 {
     "projects" : [
         {
-            "title"         : "Σχεδίαση εταιρικής ταυτότητας για την εταιρεία RecMe productions",
+            "title"         : "Σχεδίασμος εταιρικής οπτικής ταυτότητας για την εταιρεία RecMe productions (recme.gr)",
             "id"            : "1",
-            "description1" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. ",
-            "description2" : "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? ",
+            "description1"  : "Η RecMe Productions είναι μια νέα εταιρεία που προσφέρει ένα ευρύ φάσμα υπηρεσιών, με έδρα την Κατερίνη. Εξειδικεύεται στις τηλεοπτικές παραγωγές και μεταξύ άλλων προσφέρει υπηρεσίες πολυκάμερης κάλυψης, παραγωγής βίντεο και επεξεργασίας πολυμέσων.",
+            "description2"  : "Μια από τις σύγχρονες υπηρεσίες της εταιρείας είναι το live streaming, που επιτρέπει τη ζωντανή μετάδοση εκδηλώσεων, εταιρικών παρουσιάσεων, θρησκευτικών τελετών και αθλητικών γεγονότων σε πραγματικό χρόνο, με υψηλή ποιότητα βίντεο και ήχου.",
             "client"        : "RecMe productions",
             "service"       : "Σχεδιασμός επεκτημένης εταιρικής ταυτότητας",
             "year"          : "2024",
-            "link"          : "/portfolio.html?project=1"
+            "link"          : "/portfolio.html?project=1",
+            "featured"      : "/media/photos/recme/featured.png",
+            "images"        : [
+                "/media/photos/recme/brand_guidelines_1.png",
+                "/media/photos/recme/brand_guidelines_2.png",
+                "/media/photos/recme/brand_guidelines_3.png",
+                "/media/photos/recme/brand_guidelines_4.png",
+                "/media/photos/recme/brand_guidelines_5.png",
+                "/media/photos/recme/brand_guidelines_6.png",
+                "/media/photos/recme/brand_guidelines_7.png",
+                "/media/photos/recme/brand_guidelines_8.png",
+                "/media/photos/recme/brand_guidelines_9.png",
+                "/media/photos/recme/brand_guidelines_10.png",
+                "/media/photos/recme/brand_guidelines_11.png",
+                "/media/photos/recme/brand_guidelines_12.png",
+                "/media/photos/recme/brand_guidelines_13.png",
+                "/media/photos/recme/brand_guidelines_14.png",
+                "/media/photos/recme/brand_guidelines_15.png",
+                "/media/photos/recme/brand_guidelines_16.png",
+                "/media/photos/recme/brand_guidelines_17.png",
+                "/media/photos/recme/brand_guidelines_18.png",
+                "/media/photos/recme/brand_guidelines_19.png",
+                "/media/photos/recme/brand_guidelines_20.png",
+                "/media/photos/recme/brand_guidelines_21.png",
+                "/media/photos/recme/brand_guidelines_22.png",
+                "/media/photos/recme/brand_guidelines_23.png",
+                "/media/photos/recme/brand_guidelines_24.png"
+            ]
         },
         {
-            "title"         : "Σχεδιασμός επαγγελματικής κάρτας για την Νέο σπίτι - Έπιπλα Τσακιρίδης",
+            "title"         : "Σχεδιασμός επαγγελματικής κάρτας για την επιχείρηση Έπιπλα Τσακιρίδης (Νέο σπίτι)",
             "id"            : "2",
-            "description1" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. ",
-            "description2" : "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? ",
-            "client"        : "RecMe productions",
-            "service"       : "Σχεδιασμός επεκτημένης εταιρικής ταυτότητας",
-            "year"          : "2024",
-            "link"          : "/portfolio.html?project=2"
+            "description1"  : "Η επιχείρηση Έπιπλα Τσακιρίδης δραστηριοποιείται στο χώρο του επίπλου περισσότερο από 40 χρόνια.",
+            "description2"  : "Αν και ξεκίνησε ως ένα μικρό κατάστημα τοπικού χαρακτήρα λόγω της σταθερής προτίμησης του κοινού, των ποιοτικών επίπλων και του επαγγελματισμού στην εξυπηρέτηση επεκτάθηκε σε έναν πολύ μεγαλύτερο χώρο.",
+            "description3"  : "Με κύριο αντικείμενο το έπιπλο κατοικίας, αλλά και τον επαγγελματικό και ξενοδοχειακό εξοπλισμό, το νέο πνεύμα, οι φρέσκιες ιδέες, η μοντέρνα ματιά, αποτελεί την δυναμικότερη εταιρεία επίπλων στην Κατερίνη.",
+            "client"        : "Έπιπλα Τσακιρίδης",
+            "service"       : "Σχεδιασμός κάρτας επαγγελματικής",
+            "year"          : "2023",
+            "link"          : "/portfolio.html?project=2",
+            "featured"      : "/media/photos/tsakiridis/featured.png",
+            "images"        : [
+                "/media/photos/tsakiridis/business_card_design_preview-avramidis_visuals.png",
+                "/media/photos/tsakiridis/mockup(1)_business_card_design-avramidis_visuals.png",
+                "/media/photos/tsakiridis/mockup(2)_business_card_design-avramidis_visuals.png",
+                "/media/photos/tsakiridis/mockup(3)_business_card_design-avramidis_visuals.png",
+                "/media/photos/tsakiridis/mockup(4)_business_card_design-avramidis_visuals.png"
+            ]
         },
         {
-            "title"         : "Σχεδίαση συσκευασίας για τροφή παπαγάλων (passion project)",
+            "title"         : "Σχεδιασμός συσκευασίας για τροφή των παπαγάλων ονόματι Lotti Parroti (passion project)",
             "id"            : "3",
-            "description1" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. ",
-            "description2" : "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? ",
-            "client"        : "RecMe productions",
-            "service"       : "Σχεδιασμός επεκτημένης εταιρικής ταυτότητας",
-            "year"          : "2024",
-            "link"          : "/portfolio.html?project=3"
+            "description1"  : "Το παρόν project αποτελεί μια δημιουργική πρωτοβουλία που συνδυάζει το πάθος για τη γραφιστική και την αγάπη για τα κατοικίδια, συγκεκριμένα για τους παπαγάλους. Η ιδέα πίσω από το “Lotti Parroti” είναι να δημιουργηθεί μια συσκευασία που είναι αισθητικά ελκυστική, αλλά και λειτουργική.",
+            "description2"  : "Με αυτήν την πρωτοβουλία, σχεδιάστηκε για πρώτη φορά εξ’ ολοκλήρου μια γραμματοσειρά με την οποία στοιχειοθετήθηκε το κάτω μέρος του λογοτύπου.",
+            "client"        : "Lotti Parroti",
+            "service"       : "Σχεδιασμός συσκευασίας",
+            "year"          : "2023",
+            "link"          : "/portfolio.html?project=3",
+            "featured"      : "/media/photos/parroti/featured.png",
+            "images"        : [
+                "/media/photos/parroti/mockup-packaging_design-avramidis_visuals.png"
+            ]
         },
         {
-            "title"         : "Σχεδίαση εξωφύλλου του βιβλίου «Οι εν γλώσσαις οδός προς το Άβατον του Θεού»",
+            "title"         : "Σχεδίαση εξωφύλλου του βιβλίου «Οι εν γλώσσαις οδός προς το Άβατον του Θεού» για τις Εκδόσεις Όρος",
             "id"            : "4",
-            "description1" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. ",
-            "description2" : "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? ",
-            "client"        : "RecMe productions",
-            "service"       : "Σχεδιασμός επεκτημένης εταιρικής ταυτότητας",
-            "year"          : "2024",
-            "link"          : "/portfolio.html?project=4"
+            "description1"  : "Η πρώτη διπλωματική εργασία του βιλίου περιλαμβάνει την ερμηνεία της “οδού προς το άδυτον του Θεού” προκειμένου να πλησιάσει ο καθένας στον Δημιουργό, σε αυτόν που τον έπλασε.",
+            "description2"  : "Επίσης, η δεύτερη θεολογική μελέτη έχει ώς σκοπό την διαφώτιση του φαινομένου της ομιλίας σε ξένες γλώσσες κατά την ώρα της προσευχής στις ημέρες μας και με ποιο τρόπο βιώνεται στην παράδοση τόσον του Πεντηκοστιανού/Χαρισματικού κινήματος, όσο και της Ανατολικής Ορθόδοξης Εκκλησίας. Παρατίθενται ιστορικές και ερμηνευτικές πηγών από τις δύο εκκλησιαστικές παραδόσεις, καθώς επίσης και συνεντεύξεις προσώπων που διηγούνται πως βίωσαν το φαινόμενο της γλωσσολαλίας κατά τη διάρκεια της προσευχής.",
+            "client"        : "Εκδόσεις Όρος",
+            "service"       : "Σχεδιασμός εξωφύλλου βιβλίου",
+            "year"          : "2023",
+            "link"          : "/portfolio.html?project=4",
+            "featured"      : "/media/photos/avaton/featured.png",
+            "images"        : [
+                "/media/photos/avaton/mockup(1)_book_cover_design-avramidis_visuals.png",
+                "/media/photos/avaton/mockup(2)_book_cover_design-avramidis_visuals.png",
+                "/media/photos/avaton/mockup(3)_book_cover_design-avramidis_visuals.png",
+                "/media/photos/avaton/mockup(4)_book_cover_design-avramidis_visuals.png",
+                "/media/photos/avaton/mockup(5)_book_cover_design-avramidis_visuals.png"
+            ]
         }
     ],
     "questions" : [
         {
-            "question" : "Για ποιές επιχειρήσεις - οργανισμούς παρέχετε γραφιστικές υπηρεσίες;",
-            "answer" : "Γραφιστικές υπηρεσίες παρέχουμε σε ιδιωτικές επιχειρήσεις και οργανισμούς που επιθυμούν να έχουν ένα ποιοτικό, άριστο αποτέλεσμα! Ειδικά σε επιχειρήσεις - εταιρείες που αναγνωρίζουν την επικοινωνιακή σημασία του design, έχουν ως γνώμονα τη σχέση σεβασμού σε όλα τα στάδια της συνεργασίας και μαζί με μας να ασχοληθούν σε βάθος για να παράγουμε το καλύτερο δυνατό αποτέλεσμα"
+            "question"  : "Για ποιές επιχειρήσεις - οργανισμούς παρέχετε γραφιστικές υπηρεσίες;",
+            "answer"    : "Στην Avramidis Visuals παρέχουμε γραφιστικές υπηρεσίες σε ιδιωτικές επιχειρήσεις και οργανισμούς που επιδιώκουν <span style='font-weight: bold;'>άριστο και ποιοτικό αποτέλεσμα!</span> Συνεργαζόμαστε ιδιαίτερα με εταιρείες που αναγνωρίζουν την επικοινωνιακή σημασία του design και επιδιώκουν μια σχέση σεβασμού και συνεργασίας σε όλα τα στάδια του έργου.<br><br>Από μικρές και μεσαίες επιχειρήσεις έως μεγάλες εταιρείες, εκπαιδευτικά ιδρύματα και ΜΚΟ, δημιουργούμε εξατομικευμένες γραφιστικές λύσεις που αντικατοπτρίζουν την αξία και την ταυτότητα της επιχείρησής σας. Με έμφαση στην προσοχή στη λεπτομέρεια και την εξατομικευμένη προσέγγιση, διασφαλίζουμε ότι το τελικό αποτέλεσμα ανταποκρίνεται πλήρως στις προσδοκίες και τις ανάγκες σας."
         },
         {
-            "question" : "Ποιο είναι το γραφιστικό σας στυλ;"
+            "question"  : "Ποιο είναι το γραφιστικό σας στυλ;",
+            "answer"    : "Βασιζόμαστε στην θεωρία του μινιμαλισμού με έμφαση στην απλότητα και τα μοντέρνα γραφικά στοιχεία. Η <span style='font-weight: bold'>καθαρότητα</span>, η <span style='font-weight: bold'>αισθητική</span> αλλά και η <span style='font-weight: bold'>λειτουργικότητα</span> είναι τρεις έννοιες που λαμβάνουμε πάντοτε υπόψη. Στόχος μας είναι να επικοινωνούμε το μήνυμα με τον πιο άμεσο και κατανοητό τρόπο. Για αυτό δημιουργούμε σχέδια που όχι μόνο είναι όμορφα, αλλά και λειτουργικά.<br><br>Άλλωστε αυτά ήταν τα λόγια του μεγάλου ζωγράφου της Αναγέννησης: <span style='font-weight: bold'>“Η απλότητα είναι η υπέρτατη σοφιστία.”</span> (Λεονάρντο Ντα Βίντσι)."
         },
         {
-            "question" : "Ποιες είναι οι τιμές σας και πώς καθορίζονται;"
+            "question"  : "Αφού αναλάβετε ένα γραφιστικό project ποια διαδικασία ακολουθείτε;",
+            "answer"    : "Η διαδικασία δημιουργίας ενός γραφιστικού έργου μπορεί να ποικίλλει ανάλογα με τις απαιτήσεις και τις προδιαγραφές κάθε έργου. Παρόλα αυτά, ακολουθούμε μια συγκεκριμένη μεθοδολογία η οποία ενδεικτικά περιλαμβάνει τα εξής βήματα:<br><br><span style='font-weight: bold'>Κατανόηση του έργου:</span> Αρχικά, κατά τη διάρκεια της επικοινωνίας μας, μας παρέχετε λεπτομέρειες σχετικά με το έργο, τους στόχους και το κοινό στο οποίο απευθύνεται.<br><br><span style='font-weight: bold'>Έρευνα:</span> Έπειτα, πραγματοποιούμε έρευνα για το αντικείμενο του έργου, το κοινό και τις σχεδιαστικές τάσεις. Μπορείτε να μας δείξετε παρόμοια έργα που έχετε συγκεντρώσει ως δείγματα. Αυτή η έρευνα μας βοηθά να κατανοήσουμε την αγορά και τον ανταγωνισμό, παρέχοντάς μας κατευθυντήριες γραμμές για τον σχεδιασμό του έργου σας. Έτσι, διαμορφώνουμε από κοινού το σχεδιαστικό στυλ που θα υιοθετήσουμε. Το βήμα αυτό απαιτεί τον περισσότερο χρόνο.<br><br><span style='font-weight: bold'>Σχεδιασμός:</span> Με την ολοκλήρωση της κατανόησης του έργου και της έρευνας, ξεκινά η γραφιστική διαδικασία, έχοντας πλέον πλήρη εικόνα της σχεδιαστικής κατεύθυνσης που πρέπει να ακολουθήσουμε.<br><br>Η παραπάνω μεθοδολογία διασφαλίζει την επίτευξη του επιθυμητού αποτελέσματος στα γραφιστικά έργα που δημιουργούμε."
         },
         {
-            "question" : "Πώς μπορείτε να βελτιώσετε την εικόνα της επιχείρησης μου/οργανισμού μου μέσω της φωτογραφίας;"
+            "question"  : "Ποιες είναι οι τιμές σας και πώς καθορίζονται;",
+            "answer"    : "Ως Avramidis Visuals, οι τιμές μας καθορίζονται με βάση μια <span style='font-weight: bold'>εξατομικευμένη προσέγγιση</span>, προσαρμοσμένη στις ιδιαίτερες ανάγκες και απαιτήσεις κάθε πελάτη. Ξεκινάμε με μια <span style='font-weight: bold'>λεπτομερή ανάλυση του έργου</span> για να κατανοήσουμε τις προσδοκίες και τους στόχους σας, προσφέροντας στη συνέχεια μια ποικιλία γραφιστικών και φωτογραφικών υπηρεσιών που καλύπτουν πλήρως τις ανάγκες σας. Το κοστολόγιο μας βασίζεται σε ωριαία χρέωση, η οποία διαφοροποιείται ανάλογα με την πολυπλοκότητα και τη διάρκεια του έργου. Κάθε πρόταση προσφοράς είναι σαφής και περιλαμβάνει όλες τις λεπτομέρειες του κόστους.<br><br>Για περισσότερες πληροφορίες ή για να συζητήσετε τις ανάγκες του δικού σας έργου, παρακαλούμε επικοινωνήστε μαζί μας. Είμαστε εδώ για να σας παρέχουμε την κατάλληλη λύση που θα αντικατοπτρίζει την αξία της επιχείρησής σας!"
         },
         {
-            "question" : "Ποια είναι η προσέγγιση σας όσον αφορά τη συνεργασία με τους πελάτες κατά τη διάρκεια της δημιουργικής διαδικασίας;"
+            "question"  : "Χρειάζομαι μόνο λογότυπο ή και εταιρική ταυτότητα;",
+            "answer"    : "Υπάρχει μεγάλη σύγχυση στην κατανόηση της έννοιας του λογοτύπου. Το λογότυπο αποτελεί μόνο ένα μέρος της οπτικής εταιρικής ταυτότητας. Το λογότυπο, λοιπόν, είναι η κορυφή του παγόβουνου και παρόλο που έχει μεγάλη σημασία, αν θέλετε το brand σας <span style='font-weight: bold'>να αποδίδει στο μέγιστο</span>, χρειάζεται μια ολοκληρωμένη εταιρική ταυτότητα. Αυτή θα καθορίσει το ύφος της επιχείρησής σας σε κάθε προβολή της, <span style='font-weight: bold'>βοηθώντας την να εδραιωθεί στην αγορά, να διαφοροποιηθεί από τον ανταγωνισμό και να μείνει αξέχαστη στους πελάτες σας.</span><br><br>Αυτό που κάνουμε εμείς είναι να δημιουργούμε έναν μοναδικό χαρακτήρα για το brand σας, ώστε να ξεχωρίζει και να αναγνωρίζεται εύκολα. Επιλέγουμε μοναδικές γραμματοσειρές, χρώματα, μοτίβα και στοιχεία που συνθέτουν το δικό σας ξεχωριστό στυλ εμφάνισης."
         },
         {
-            "question" : "Πώς εξασφαλίζεται ότι το γραφιστικό και φωτογραφικό ύφος σας ανταποκρίνεται στην πελατειακή κοινότητα μας;"
+            "question"  : "Πόσος χρόνος απαιτείται για να ολοκληρωθεί ένα γραφιστικό project;",
+            "answer"    : "Ο χρόνος που απαιτείται για την ολοκλήρωση ενός γραφιστικού έργου εξαρτάται από διάφορους παράγοντες, όπως η πολυπλοκότητα του, οι απαιτήσεις του πελάτη, οι προθεσμίες και η διαθεσιμότητα του γραφίστα. Μια απλή ετικέτα μπορεί να σχεδιαστεί μέσα σε λίγες ώρες, ενώ ένα πιο περίπλοκο έργο ή ένα έργο που απαιτεί συνεργασία με άλλους ειδικούς μπορεί να χρειαστεί αρκετές ημέρες ή και εβδομάδες. Η διαδικασία σχεδίασης συχνά περιλαμβάνει επαναλήψεις και αναθεωρήσεις.<br><br>Πάντοτε, στο έγγραφο της προσφοράς μας, ύστερα από την πρώτη επικοινωνία μας, θα σας παρέχουμε ένα αναλυτικό χρονοδιάγραμμα για το έργο που μας έχετε αναθέσει."
         },
         {
-            "question" : "Με ποιά προγράμματα/κοινωνικά δίκτυα επικοινωνείτε μαζί μας και κάνουμε τις προκαθορισμένες κλήσεις;"
+            "question"  : "Αναλαμβάνετε την εκτύπωση των γραφιστικών έργων;",
+            "answer"    : "Συνεργαζόμαστε με τοπικά πιστοποιημένα τυπογραφεία που μπορούν να αναλάβουν εκτυπώσεις μικρής και μεγάλης εμβέλειας από έντυπα, εταιρική ένδυση, φακέλους μέχρι συσκευασίες, ετικέτες και πιστοποιούν την ολοκλήρωση και επιτυχία στην παραγωγή του έργου σας."
+        },
+        {
+            "question"  : "Πώς μπορείτε να βελτιώσετε την εικόνα της επιχείρησης μου/οργανισμού μου μέσω της φωτογραφίας;",
+            "answer"    : "Βελτιώνουμε την εικόνα της επιχείρησής σας μέσω εξειδικευμένων φωτογραφικών υπηρεσιών που ενισχύουν την επωνυμία σας και προσελκύουν το ενδιαφέρον των πελατών σας. Με τη φωτογράφιση προϊόντων, αναδεικνύουμε την ποιότητα και τα μοναδικά χαρακτηριστικά τους, δημιουργώντας οπτικό υλικό που ξεχωρίζει και αυξάνει τις πωλήσεις. Κατά την κάλυψη εκδηλώσεων, απεικονίζουμε τις σημαντικές στιγμές, ενισχύοντας την προβολή και τη φήμη σας. Επιπλέον, η επιμελημένη επεξεργασία των φωτογραφιών εξασφαλίζει άψογες και επαγγελματικές εικόνες που αντικατοπτρίζουν την αξία και την αισθητική της επιχείρησής σας.<br><br>Οι υπηρεσίες μας προσφέρουν μια συνεπή και ελκυστική οπτική παρουσία που ενισχύει το brand σας, δημιουργώντας μια ισχυρή σύνδεση με το κοινό σας και προωθώντας την επιτυχία σας στην αγορά. Δείτε αναλυτικά τις υπηρεσίες εδώ."
+        },
+        {
+            "question"  : "Γιατί να συνεργαστούμε μαζί σας; Τι παραπάνω προσφέρετε;",
+            "answer"    : "Βελτιώνουμε με τις υπηρεσίες μας την εικόνα κάθε επιχείρησης.· Εργαζόμαστε με πάθος και αφοσίωση.<br>· Φροντίζουμε να εξελισσόμαστε και να απογειώνουμε κάθε project.<br>· Είμαστε λάτρεις του minimal design και της λεπτομέρειας.<br>· Δίνουμε έμφαση στο γραφιστικό κομμάτι και στη λεπτομέρεια σε ό,τι project και να αναλάβουμε.<br>· Επιλέγουμε την οργάνωσή τον προγραμματισμό, την συνέπεια και τηρούμε αυστηρά τα χρονοδιαγράμματα.<br>· Προσφέρουμε επαγγελματική παρουσίαση ενός project προσδίδοντας έτσι την αξία που αρμόζει στην επιχείρηση σας.<br>· Βρισκόμαστε κοντά στον πελάτη όποτε μας χρειάζεται και ανταποκρινόμαστε σε κάθε του ανάγκη.<br>· Παρέχουμε την επιλογή συνδυαστικών υπηρεσίων και έτσι καλύπτουμε κάθε τμήμα της οπτικής επικοινωνίας μέσω και συνεργατών. (φωτογράφιση, σχεδιασμός, εκτύπωση)"
+        },
+        {
+            "question"  : "Τι είναι η συνδυαστική επιλογή υπηρεσιών;",
+            "answer"    : "Αν θέλετε να αναλάβουμε ολοκληρωμένες υπηρεσίες γραφιστικών υπηρεσιών όπως και υπηρεσίες φωτογράφισης των προϊόντων σας και άλλες που παρέχουμε, είναι συνδυαστικές υπηρεσίες. Σε αυτή την περίπτωση έχετε πολύ καλύτερη συμφωνία και άμεση υποστήριξη για ό,τι χρειαστείτε με την υπογραφή μας για άριστο αποτέλεσμα!"
         }
     ]
 }

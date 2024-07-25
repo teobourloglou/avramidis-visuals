@@ -7,7 +7,7 @@ window.addEventListener('scroll', function() {
         document.getElementById('headerDesktop').classList.add('bg-gray-4', 'shadow-lg');
         document.getElementById('contactButton').classList.add('bg-gray-1', 'text-gray-4');
         document.getElementById('contactButton').classList.remove('bg-gray-4', 'text-gray-1');
-        document.getElementById('headerDesktopLogo').src = 'media/black-logo.svg';
+        document.getElementById('headerDesktopLogo').src = 'media/svgs/black-logo.svg';
         document.getElementById('openMenuButton').classList.add('text-gray-1');
         document.getElementById('openMenuButton').classList.remove('text-gray-4');
         desktopLinks.forEach(function(element) {
@@ -18,7 +18,7 @@ window.addEventListener('scroll', function() {
         document.getElementById('headerDesktop').classList.remove('bg-gray-4', 'shadow-lg');
         document.getElementById('contactButton').classList.remove('bg-gray-1', 'text-gray-4');
         document.getElementById('contactButton').classList.add('bg-gray-4', 'text-gray-1');
-        document.getElementById('headerDesktopLogo').src = 'media/white-logo.svg';
+        document.getElementById('headerDesktopLogo').src = 'media/svgs/white-logo.svg';
         document.getElementById('openMenuButton').classList.remove('text-gray-1');
         document.getElementById('openMenuButton').classList.add('text-gray-4');
         desktopLinks.forEach(function(element) {

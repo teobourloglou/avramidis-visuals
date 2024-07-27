@@ -8,7 +8,7 @@
             "client"        : "RecMe productions",
             "service"       : "Σχεδιασμός επεκτημένης εταιρικής ταυτότητας",
             "year"          : "2024",
-            "link"          : "/portfolio.html?project=1",
+            "link"          : "/portfolio?project=1",
             "featured"      : "/media/photos/recme/featured.png",
             "images"        : [
                 "/media/photos/recme/brand_guidelines_1.png",
@@ -46,7 +46,7 @@
             "client"        : "Έπιπλα Τσακιρίδης",
             "service"       : "Σχεδιασμός κάρτας επαγγελματικής",
             "year"          : "2023",
-            "link"          : "/portfolio.html?project=2",
+            "link"          : "/portfolio?project=2",
             "featured"      : "/media/photos/tsakiridis/featured.png",
             "images"        : [
                 "/media/photos/tsakiridis/business_card_design_preview-avramidis_visuals.png",
@@ -64,7 +64,7 @@
             "client"        : "Lotti Parroti",
             "service"       : "Σχεδιασμός συσκευασίας",
             "year"          : "2023",
-            "link"          : "/portfolio.html?project=3",
+            "link"          : "/portfolio?project=3",
             "featured"      : "/media/photos/parroti/featured.png",
             "images"        : [
                 "/media/photos/parroti/mockup-packaging_design-avramidis_visuals.png"
@@ -78,7 +78,7 @@
             "client"        : "Εκδόσεις Όρος",
             "service"       : "Σχεδιασμός εξωφύλλου βιβλίου",
             "year"          : "2023",
-            "link"          : "/portfolio.html?project=4",
+            "link"          : "/portfolio?project=4",
             "featured"      : "/media/photos/avaton/featured.png",
             "images"        : [
                 "/media/photos/avaton/mockup(1)_book_cover_design-avramidis_visuals.png",

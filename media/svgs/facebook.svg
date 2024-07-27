@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 22.99 22.99">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-2);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="22.99" height="22.99"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <path class="cls-2" d="M11.49,0C5.15,0,0,5.15,0,11.49c0,5.39,3.71,9.91,8.72,11.16v-7.64h-2.37v-3.51h2.37v-1.51c0-3.91,1.77-5.73,5.61-5.73.73,0,1.98.14,2.5.29v3.18c-.27-.03-.74-.04-1.33-.04-1.88,0-2.61.71-2.61,2.57v1.24h3.75l-.65,3.51h-3.11v7.9c5.69-.69,10.1-5.53,10.1-11.41,0-6.35-5.15-11.49-11.49-11.49Z"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-2" x="-5" y="-5" width="32.99" height="32.9"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-2" x="-5" y="-5" width="32.99" height="32.9"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g class="cls-1">
+      <g class="cls-3">
+        <g class="cls-5">
+          <g class="cls-4">
+            <image width="70" height="70" transform="translate(-5.4 -5.4) scale(.48)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABFCAYAAAD3upAqAAAACXBIWXMAABcRAAAXEQHKJvM/AAAHdUlEQVR4nOWcXU8TTRTH/7vpxzEqF4Bl650fQWMCxhc0XlYspv0IGvSKGwNBopGiXvjyIVRCgCCCH4euFzh9pqfnbbfbQvL8k4bd2ZnZOb8958xsd0uS53mOMWh/fx+vX7/G3t4ewinyPEev1+tvx59YcX1OzWYTzWZzHMMGACRJkiRVg1lbW8Pa2lofQmyk9AnHgywwQbOzs2g2m5idna3ShOrAHBwcYH19HQcHByoACQi3HfY9qhpQJWA2Njawvr4uGhy8xuMtkgd5VRWgkcAcHh5iY2PD5SVF4cR/y2jUHFQazObmJt68eeMy2gMHqBYMcOY93W63VNtSYJrNJg4PD0sBibcBfmaqCkxQt9stHFpJkiRpkQZLS0v49esXACBNUyRJMvChosZpdeOyKifKhYUF7O7uFm7nBhOgxIZRI6nBHACgumTrVRk4JpijoyO0Wi0cHR0NlFNAtJw7FtehfQDD03WVKgrHzDE3btxw5xEu72jHtGQ8Lnlyjpljnj17NpRHuLxi5RqujlZvnPJ6jghma2sLx8fHAHSjuG0tlCblGZoWFhbMOiyY379/Y2tr66wCM/tIHsNtU3lnpnFrdXVVPc6C6Xa7rGdwRnugaKHDaRKAVldX1ZAaArO9vY2TkxMANgzJeG0K1zTp8NK8ZgDM8fExtre3zw6kZ4e8YROk5RwL0iRDCQB2d3dFOANgPnz4IHpI+DuK99B9L7BxygXm5ORETbBBGjhOHsMvGpw+mI8fP4pXUwNleQ6n84TAyQQD+MLAWtdY0zGXZMt8c1el6AyVAoMhBMjeEh8L21XpvL2Iek0KAJ8+fQJgJ1cNlCdsNE+Ij50HJNZj/vz5M1DoXYcUNYCrP84vqYoq9ppagCIZmef50LFQFgyIvcfrFZxCe6ufSSjl8otXUjsukUpfYV4kxR6TSmEjzTq0nkcUggTnIsFKQ+KNJU21RdYl1tMAWoe2PS+FJJwCo9/0edcgWr2L4i0BTM0763CJNpR7jJLyjnTsvJV6BxKHUgwpfLTnRZ7nSHT7vFUD9GToGbiUNzwP1LRZii76POCKLDu089WsCrRMm34lsNbTAM8UTut7AIySx/pgPFdOm1noPvdo1vOIVlPsNRacUVXzXCVr2c7B4Np5w4yugMt4ANfGE0qhfo0eoEZoA7EMpw/ZpDesaN/hdTQLgGao5FFebxryGCk0YgO0kOj1euj1ejg9PR3Y555ExgPlcggdG70/6/V6A7OiVLcoFBOM9g5dnDdiGPE+B4kD4jGAGmolbM3LPOFlekwok55LS+HCHQ+K39ykRnDeok3V1jEqzjYuH6WXLl0SPYEzjnpDnudDnhLvS208OUm7AFxYShCsunH5kydPBsFIADjDuHpSGJV5y6FIfQ6q5iEUhKSadCIAIqiwf3p6OpQ/OM/SzsGFDhV3K6Ltx+Hh7S/PcywtLfXrpPPz82Z+sLyniKdIoDRZYC2v4/rT9oF/6xjpNXZPWHH5yBM+nitLRadrCtY7bUsz07Vr1/plKXD2vog1w0gAQjhxkCwo4aJIF0HyFCvfxNK8ie4Pgblz586Q0cHY2GgOigbSMoBrJwHQbjdi0Na2dJ44v/TBAMDly5dZgyXvsDzEusJWTrCuvgYveGJIEZxo30+fPuXB3L17d+AkNDw47+BmKslwapzXWAki1zaUxYCk+nE5hQJEN5FXrlwZ8oT4RNKCjw7E8gY6KOkKAvKqVirP88FkztXh2sS5JWjgNZB79+6J9LVtDlgMhBtMfJyDyLXnyq0QtEK3Xq+jXq/rYB48eICrV6+y07F3zeKZlaz8whnk6asoVIAPoyEwALC4uOiC4QkPyUAOhmUwNVADodWJy1utFustLJipqSk8fPhQzCfSJ54BPO7NDZyTBVWCSPukbev1Olqtlnhe9nXWR48eYWpqashzaIh4F3UShCIeprWRjNfOt7y8LPYjggGAx48fu+9/tMGUNYLWpd5phZQ2zuXlZTGEgtQfWezv72NxcdF151wk6UruTqH1B6m88qaVceVZluHz5886lCSxf+G2t7eH+/fvswZLnsSthcJferU5EMJgVYPjcqlulmX48uWL51z2L9ymp6fx9u1bAHrSC+L2tVDxQCnaL7c/NzfnghLk+oXb9PQ03r17J8Y5LSsCTNrnZCXUeD+ul2UZvn796jG1L/dP/2ZmZvD+/XsxEZaZPaRj3oTs6XNubq4wFKAAGOC/n+zOzMyIV5ybIWgdKo+naOWSN7bbbXz79s1nHFHpH6Tfvn0bOzs7Yt6h3woC+mMTc6CO73BD4s2yDO12G1mWlTHNNytp2tnZwa1bt9xTMwXiCRPP+38xmE6ng3a7Xdak0E81//Ti5s2b+PHjx8hQpKFYcJIkQaPRQKfTKe0lpL9q/03Kq1ev8PLlS3UxJ80o1jAkOAFIo9GoxIZ/fVf//2MA4OfPn1hZWcH3799dYLxDiGFcv34dnU6nymHH5xkPmFgrKysAgBcvXgAYhBAMe/78udlPgNFoNCr1Dk4TAeNVABdrEhA4JUXf8P4/6S+25muX5XNTygAAAABJRU5ErkJggg=="/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

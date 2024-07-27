@@ -124,3 +124,15 @@ const fetchProject = () => {
         }
     };
   }
+
+  const setMark = (id) => {
+    let marks = document.querySelectorAll('.linkMarks');
+    marks.forEach(link => {
+        link.classList.remove('inline');
+        link.classList.add('hidden');
+    });
+
+    console.log(id)
+    document.getElementById(id).classList.remove('hidden');
+    document.getElementById(id).classList.add('inline');
+  }

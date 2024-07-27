@@ -15,10 +15,22 @@
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12 lg:items-center">
-        <a href="/" class="text-lg leading-6 transition-colors duration-300 desktopLinks text-gray-4">Αρχική</a>
-        <a href="#services" class="text-lg leading-6 transition-colors duration-300 desktopLinks text-gray-4">Υπηρεσίες</a>
-        <a href="#projects" class="text-lg leading-6 transition-colors duration-300 desktopLinks text-gray-4">Ενδεικτικά Projects</a>
-        <a href="#faq" class="text-lg leading-6 transition-colors duration-300 desktopLinks text-gray-4">Συχνές Ερωτήσεις</a>
+        <a href="/" class="relative flex text-lg leading-6 transition-colors duration-300 desktopLinks text-gray-4">
+          <span>Αρχική</span>
+          <img id="homeMark" src="media/svgs/mark.svg" class="absolute left-0 hidden -bottom-1 linkMarks" />
+        </a>
+        <a href="#services" class="relative flex text-lg leading-6 transition-colors duration-300 desktopLinks text-gray-4">
+          <span>Υπηρεσίες</span>
+          <img id="serviceMark" src="media/svgs/mark.svg" class="absolute left-0 hidden -bottom-1 linkMarks" />
+        </a>
+        <a href="#projects" class="relative flex text-lg leading-6 transition-colors duration-300 desktopLinks text-gray-4">
+          <span>Ενδεικτικά Projects</span>
+          <img id="projectMark" src="media/svgs/title-underline.svg" class="absolute left-0 hidden -bottom-1 linkMarks" />
+        </a>
+        <a href="#faq" class="relative flex text-lg leading-6 transition-colors duration-300 desktopLinks text-gray-4">
+          <span>Συχνές Ερωτήσεις</span>
+          <img id="faqMark" src="media/svgs/title-underline.svg" class="absolute left-0 hidden -bottom-1 linkMarks" />
+        </a>
         <a id="contactButton" href="#contact" class="rounded-xl bg-gray-4 px-8 py-2.5 text-sm lg:text-lg font-unineueBold text-gray-1 transition-colors duration-300 hover:bg-primary hover:text-gray-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">Επικοινωνία</a>
       </div>
     </nav>
